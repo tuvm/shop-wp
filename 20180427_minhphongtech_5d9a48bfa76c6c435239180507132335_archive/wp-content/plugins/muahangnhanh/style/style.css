@@ -1,0 +1,148 @@
+/* Popup css */
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+    z-index: 99999;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:100%;
+    padding:15px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+.form-title hr {
+    margin-bottom: 10px;
+}
+button.btn.btn-default {
+    background: orange;
+    border: 1px solid orange;
+	padding: 10px 20px;
+    color: white;
+}
+.form-content	.woocommerce-Price-amount.amount {color: red;}
+.form-content ins span.woocommerce-Price-amount.amount {
+    color: red;
+    padding: 0 10px 0 0;
+}
+.form-content del span.woocommerce-Price-amount.amount {
+    color: black;
+    padding: 0 10px;
+}
+form {margin-bottom: 0 !important;}
+.notice {
+    border: 2px solid #ff6009;
+    color: green;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.hide { visibility: hidden;}
+input.form-control {
+    margin-bottom: 5px;
+}
+.cotphai .form-group {
+    margin-bottom: 5px !important;
+}
+ ins {
+    text-decoration: none;
+}
+.cottrai, .cotphai {float: left;padding: 0 15px; width: 50%;}
+	    .form-content p.name.product-title {
+	        margin: 10px 0px;
+	        font-size: 18px;
+	    }
+	    .form-content .woocommerce-Price-amount.amount {
+	        font-size: 20px;
+	    }   
+	    .form-title p, .form-title h3 {
+	        margin: 0;
+	    }
+	    .form-title {
+	        padding: 0 15px;
+	    }
+.detailcall-1 {
+    margin: 10px 0;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #fd6e1d;
+    box-shadow: 0 -3px 0 0 #248c50 inset;
+    text-align: center;
+}
+.detailcall-1 h3 {
+    color: white !important;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.detailcall-1 span {
+    display: block;
+    margin-top: 0px;
+    color: white;
+}
+.web79loading{
+	max-height: 40px;
+}
+@media screen and (max-width: 768px) {
+	  	.cottrai, .cotphai {width:100%;}
+	  	.popup-close{
+	  	    top: 15px;
+            right: 15px;
+	  	}
+	  	.popup-inner{
+	  	    max-height: 80%;
+	  	    overflow-y: scroll;
+	  	}
+.popup-inner {
+    max-width:700px;
+    max-height: 90%;
+    width:90%;
+}
+}
